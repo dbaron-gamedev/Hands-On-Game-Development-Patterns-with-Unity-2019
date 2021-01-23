@@ -45,9 +45,8 @@ namespace Pattern.Command_
         void OnGUI()
         {
             GUI.color = Color.black;
-            GUI.Label(new Rect(10, 10, 500, 20), "Press O to turn the radio and television.");
-            GUI.Label(new Rect(10, 30, 500, 20), "Press K to trigger the kill switch and turn off everything.");
-            GUI.Label(new Rect(10, 50, 500, 20), "Look in the Debug Console to view the status of the devices.");
+            GUI.Label(new Rect(10, 10, 500, 20), "Press F1 to start/stop recording.");
+            GUI.Label(new Rect(10, 30, 500, 20), "Press F2 to start/stop playback.");
         }
     }
 }
